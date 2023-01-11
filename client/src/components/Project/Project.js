@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-export default function Work() {
+export default function Project() {
     return (
         <Card>
             <Card.Body>
