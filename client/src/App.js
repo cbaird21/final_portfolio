@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-import Navbar from './components/Navbar';
-import Work from './components/Work';
+import Navbar from './components/Header/Navbar';
+import Work from './components/Project/Work';
 
 import Home from "./pages/Home";
 import Aboutme from './components/Aboutme/Aboutme';
