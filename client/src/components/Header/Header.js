@@ -11,9 +11,9 @@ export default function CollapsibleExample() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link Link to="/">Home</Nav.Link>
-                        <Nav.Link link to="/aboutme">About Me</Nav.Link>
-                        <Nav.Link link to="/Project" >Work</Nav.Link>
+                        <Nav.Link to="/">Home</Nav.Link>
+                        <Nav.Link to="/aboutme">About Me</Nav.Link>
+                        <Nav.Link to="/Project" >Work</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://github.com/cbaird21" target="blank">Github</Nav.Link>

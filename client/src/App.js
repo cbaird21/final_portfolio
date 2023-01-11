@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-import Navbar from './components/Header/Navbar';
-import Work from './components/Project/Project';
+
 
 import Home from "./pages/Home";
-import Aboutme from './components/Aboutme/Aboutme';
+import About from './components/About/About';
 import Contact from "./components/Contact/Contact";
 import Project from "./components/Project/Project";
 import Header from "./components/Header/Header";
@@ -21,7 +20,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/aboutme" element={<Aboutme />} />
+            <Route path="/about" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Project" element={<Project />} />
             <Route path="/Footer" element={<Footer />} />
