@@ -17,13 +17,8 @@ export default function CollapsibleExample() {
                         <Nav.Link href="#work">Work</Nav.Link>
                     </Nav>
                     <Nav>
-                        <NavDropdown title="Contact Me" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Linked In</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                GitHub
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Email</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link href="https://github.com/cbaird21" target="blank">Github</Nav.Link>
+                        <Nav.Link href="https://www.linkedin.com/in/chandler-baird-39965b129/" target="blank">Linked In</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
