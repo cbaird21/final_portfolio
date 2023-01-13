@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="container-fluid">
             <section>
-                <img className="col-lg-2 mt-5 pfp" src={image} alt="Pfp"></img>
+                <img className="col-lg-2 mt-5 image" src={image} alt="image"></img>
                 <h2>About Me</h2>
                 <p>
                     I've worked in restaurant management for twelve years now. I'm taking
