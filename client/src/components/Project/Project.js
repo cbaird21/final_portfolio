@@ -16,14 +16,10 @@ export default function Project() {
                             href="https://crimekermitterhangman.herokuapp.com/"
                             target="no_blank"
                         >
-                            <a
-                                href="https://crimekermitterhangman.herokuapp.com/"
-                                target="no_blank"
-                            >
-                                <img
-                                    src={frogger}
-                                    alt="load out of website deployed"
-                                /></a></a>
+                            <img
+                                src={frogger}
+                                alt="load out of website deployed"
+                            /></a>
                         <div className="card">
                             <h3>National Park Finder with directions</h3>
                             <a

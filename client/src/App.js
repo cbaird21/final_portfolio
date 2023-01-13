@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 
@@ -16,17 +16,16 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Project" element={<Project />} />
-          <Route path="/Footer" element={<Footer />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </div >
   )
 };

@@ -1,6 +1,7 @@
 import image from "../../images/about.jpg";
 // Import React Router Link component for internal hyperlinks
 import { Link } from 'react-router-dom';
+
 export default function About() {
     return (
         <div className="container-fluid">
