@@ -1,6 +1,6 @@
-import park from "client/public/live-deployed-page.png"
-import frogger from "client/public/screencapture-crimekermitterhangman-herokuapp-2022-12-16-09_42_01.png"
-import horseion from "client/public/02-advanced-css-homework-demo.gif"
+import park from "../../images/park.png";
+import frogger from "../../images/hangman.png";
+import horseion from "../../images/horieson.gif";
 
 export default function Project() {
     return (

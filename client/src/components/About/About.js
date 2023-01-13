@@ -1,4 +1,4 @@
-import image from "../../../public/images/About";
+import image from "../../images/about.jpg";
 
 export default function About() {
     return (
