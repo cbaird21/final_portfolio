@@ -1,6 +1,9 @@
 import park from "../../images/park.png";
 import frogger from "../../images/hangman.png";
-import horseion from "../../images/horieson.gif";
+import tracker from "../../images/tracker.png";
+import team from "../../images/team.png"
+import readMe from "../../images/readMe.png"
+import noteTaker from "../../images/noteTaker.png"
 // Import React Router Link component for internal hyperlinks
 import { Link } from 'react-router-dom';
 
@@ -16,7 +19,7 @@ export default function Project() {
                             href="https://crimekermitterhangman.herokuapp.com/"
                             target="no_blank"
                         >
-                            <img
+                            <img className="col-lg-2 mt-5 frogger"
                                 src={frogger}
                                 alt="load out of website deployed"
                             /></a>
@@ -26,19 +29,49 @@ export default function Project() {
                                 href="https://heyitsbradley.github.io/National-Park-Finder-with-Directions/"
                                 target="no_blank"
                             >
-                                <img
+                                <img className="col-lg-2 mt-5 park"
                                     src={park}
                                     alt="load out of website deployed"
                                 /></a>
                         </div>
                         <div className="card">
-                            <h3>Horseion</h3>
+                            <h3> Readme Generator </h3>
                             <a
-                                href="https://cbaird21.github.io/module1challenge1/"
+                                href="https://drive.google.com/file/d/1kmY9v3tVTNeo5AJn9NFcYaTgATlaDoSU/view"
                                 target="no_blank"
-                            ><img
-                                    src={horseion}
-                                    alt="load out of website deployed"
+                            ><img className="col-lg-2 mt-5 readMe"
+                                src={readMe}
+                                alt="load out of readme.md file"
+                                /></a>
+                        </div>
+                        <div className="card">
+                            <h3> Note Taker </h3>
+                            <a
+                                href="https://nottaker1.herokuapp.com/"
+                                target="no_blank"
+                            ><img className="col-lg-2 mt-5 noteTaker"
+                                src={noteTaker}
+                                alt="load out note taker page"
+                                /></a>
+                        </div>
+                        <div className="card">
+                            <h3> Employee Tracker </h3>
+                            <a
+                                href="https://drive.google.com/file/d/1t4_gT6CboGx2IoG3NbFRhKzFjLYnywgl/view"
+                                target="no_blank"
+                            ><img className="col-lg-2 mt-5 tracker"
+                                src={tracker}
+                                alt="image of walk through"
+                                /></a>
+                        </div>
+                        <div className="card">
+                            <h3>Team Profile Generator</h3>
+                            <a
+                                href="https://drive.google.com/file/d/1zqZZ6eW8WMP5yK_DuzPplQCe54emQCp3/view"
+                                target="no_blank"
+                            ><img className="col-lg-2 mt-5 team"
+                                src={team}
+                                alt="load out of website deployed"
                                 /></a>
                         </div>
                     </div>
