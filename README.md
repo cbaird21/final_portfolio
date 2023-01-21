@@ -2,42 +2,44 @@
 
 ## Technologies
 
+## Table of Contents
 
-## Table of Contents  
 -[Project Description](#description)  
 -[Installation](#installation)  
 -[User Story](#user-story)  
 -[Acceptance Criteria](#acceptance-criteria)  
 -[Mock Up](#mock-up)  
--[Contributions](#contributions)       
--[License](#license)   
+-[Contributions](#contributions)  
+-[License](#license)
 
 ## Description
 
-Software Development Portfolio, built with react.js and node.js, to help showcase my work and skills as a Software Developer. 
+Software Development Portfolio, built with react.js and node.js, to help showcase my work and skills as a Software Developer.
 
 ## Installation
-***Requirments***
+
+**_Requirments_**
 
 [Node.js](https://nodejs.org/en/) | [React](https://reactjs.org/)
 
-***Once Installed:***
+**_Once Installed:_**
 
-1. Clone the Repository on to your machine.  
-2. Open the terminal and ensure you are in the right file path 
-cd client  
-3. Run the command   
-npm i
- to download the packages.
-4. Then run the command 
-npm start
- to run the application.
+1. Clone the Repository on to your machine.
+2. Open the terminal and ensure you are in the right file path
+   cd client
+3. Run the command  
+   npm i
+   to download the packages.
+4. Then run the command
+   npm start
+   to run the application.
 
 ## User Story
 
 AS AN employer looking for candidates with experience building single-page applications  
 I WANT to view a potential employee's deployed React portfolio of work samples  
-SO THAT I can assess whether they're a good candidate for an open position  
+SO THAT I can assess whether they're a good candidate for an open position
+
 ## Acceptance Criteria
 
 GIVEN a single-page application portfolio for a web developer  
@@ -64,12 +66,9 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section  
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies  
 WHEN I view the footer  
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)  
-## Mock Up
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-// under construction//
-
-## Walkthrough
+## Deployed application
 
 // under construction //
 
