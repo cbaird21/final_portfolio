@@ -1,9 +1,9 @@
-import park from "../../images/park.png";
-import frogger from "../../images/hangman.png";
-import tracker from "../../images/tracker.png";
-import team from "../../images/team.png"
-import readMe from "../../images/readMe.png"
-import noteTaker from "../../images/noteTaker.png"
+import park from "../../../src/images/park.png";
+import frogger from "../../../src/images/hangman.png";
+import tracker from "../../../src/images/tracker.png";
+import team from "../../../src/images/team.png"
+import readMe from "../../../src/images/readMe.png"
+import noteTaker from "../../../src/images/noteTaker.png"
 // Import React Router Link component for internal hyperlinks
 import { Link } from 'react-router-dom';
 
