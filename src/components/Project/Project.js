@@ -4,6 +4,7 @@ import tracker from "../../../src/images/tracker.png";
 import team from "../../../src/images/team.png"
 import readMe from "../../../src/images/readMe.png"
 import noteTaker from "../../../src/images/noteTaker.png"
+import frogr from "../../../src/images/frogr.png"
 // Import React Router Link component for internal hyperlinks
 import { Link } from 'react-router-dom';
 
@@ -14,6 +15,17 @@ export default function Project() {
                 <h2>Work</h2>
                 <div className="card-box">
                     <div id="mostRecent">
+                        <div className="card">
+                            <h3>Frogr</h3>
+                            <a
+                                href="https://frogr-app.herokuapp.com/"
+                                target="no_blank"
+                            >
+                                <img className="col-lg-2 mt-5 park"
+                                    src={frogr}
+                                    alt="load out of website deployed"
+                                /></a>
+                        </div>
                         <h3>Hangman Application</h3>
                         <a
                             href="https://crimekermitterhangman.herokuapp.com/"
