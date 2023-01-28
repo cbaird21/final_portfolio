@@ -10,7 +10,7 @@ export default function navbar() {
                 <Navbar.Brand >Chandler Baird Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="me-auto text-decoration-none">
                         <Link to="/"> Home </Link>
                         <Link to="/About"> About </Link>
                         <Link to="/Project" > Projects </Link>

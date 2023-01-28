@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <Navbar expand="lg" bg="dark" variant="dark" fixed="bottom">
             <Container>
-                <Nav>
+                <Nav className='text-decoration-none'>
                     <Nav.Link href="https://github.com/cbaird21" target="blank">Github</Nav.Link>
                     <Nav.Link href="https://www.linkedin.com/in/chandler-baird-39965b129/" target="blank">Linked In</Nav.Link>
                 </Nav>

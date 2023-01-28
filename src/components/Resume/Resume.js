@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Resume() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid text-decoration-none">
             <Link className="text-dark" to="/Resume">
                 <h2> Resume </h2>
                 <img className="col-lg-2 mt-5 Resume"

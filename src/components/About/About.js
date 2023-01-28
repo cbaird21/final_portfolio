@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function About() {
     return (
         <div className="container-fluid">
-            <Link className="text-dark" to="/About">
+            <Link className="text-dark text-decoration-none" to="/About">
                 <img className="col-lg-2 mt-5 image" src={image} alt="image"></img>
                 <h2>About Me</h2>
                 <p>

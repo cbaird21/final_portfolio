@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 export default function Project() {
     return (
         <Link to="/Project" >
-            <section id="work" className="section">
+            <section id="work" className="section text-decoration-none">
                 <h2>Work</h2>
                 <div className="card-box">
                     <div id="mostRecent">
