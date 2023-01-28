@@ -11,7 +11,6 @@ export default function navbar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto text-decoration-none">
-                        <Link className="text-decoration-none m-2 text-light" to="/"> Home </Link>
                         <Link className="text-decoration-none m-2 text-light" to="/About"> About </Link>
                         <Link className="text-decoration-none m-2 text-light" to="/Project" > Projects </Link>
                         <Link className="text-decoration-none m-2 text-light" to="/Contact" > Contact Me</Link>
