@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route className="text-decoration-none" path="/" element={<Home />} />
           <Route className="text-decoration-none" path="/about" element={<About />} />
-          <Route className="text-decoration-none" path="/Contact" element={<Contact />} />
+          <Route className="text-decoration-none" path="/ContactFrom" element={<Contact />} />
           <Route className="text-decoration-none" path="/Project" element={<Project />} />
         </Routes>
         <Footer />
