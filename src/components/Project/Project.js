@@ -11,11 +11,11 @@ import { Link } from 'react-router-dom';
 export default function Project() {
     return (
         <Link to="/Project" >
-            <section id="work" className="section text-decoration-none">
+            <section id="work" className="section">
                 <h2>Work</h2>
-                <div className="card-box">
+                <div className="card-box text-decoration-none">
                     <div id="mostRecent">
-                        <div className="card">
+                        <div className="card text-decoration-none">
                             <h3>Frogr</h3>
                             <a
                                 href="https://frogr-app.herokuapp.com/"
@@ -26,16 +26,18 @@ export default function Project() {
                                     alt="load out of website deployed"
                                 /></a>
                         </div>
-                        <h3>Hangman Application</h3>
-                        <a
-                            href="https://crimekermitterhangman.herokuapp.com/"
-                            target="no_blank"
-                        >
-                            <img className="col-lg-2 mt-5 frogger"
-                                src={frogger}
-                                alt="load out of website deployed"
-                            /></a>
-                        <div className="card">
+                        <div className="card text-decoration-none">
+                            <h3>Hangman Application</h3>
+                            <a
+                                href="https://crimekermitterhangman.herokuapp.com/"
+                                target="no_blank"
+                            >
+                                <img className="col-lg-2 mt-5 frogger"
+                                    src={frogger}
+                                    alt="load out of website deployed"
+                                /></a>
+                        </div>
+                        <div className="card text-decoration-none">
                             <h3>National Park Finder with directions</h3>
                             <a
                                 href="https://heyitsbradley.github.io/National-Park-Finder-with-Directions/"
@@ -46,7 +48,7 @@ export default function Project() {
                                     alt="load out of website deployed"
                                 /></a>
                         </div>
-                        <div className="card">
+                        <div className="card text-decoration-none">
                             <h3> Readme Generator </h3>
                             <a
                                 href="https://drive.google.com/file/d/1kmY9v3tVTNeo5AJn9NFcYaTgATlaDoSU/view"
@@ -56,7 +58,7 @@ export default function Project() {
                                 alt="load out of readme.md file"
                                 /></a>
                         </div>
-                        <div className="card">
+                        <div className="card text-decoration-none">
                             <h3> Note Taker </h3>
                             <a
                                 href="https://nottaker1.herokuapp.com/"
@@ -66,7 +68,7 @@ export default function Project() {
                                 alt="load out note taker page"
                                 /></a>
                         </div>
-                        <div className="card">
+                        <div className="card text-decoration-none">
                             <h3> Employee Tracker </h3>
                             <a
                                 href="https://drive.google.com/file/d/1t4_gT6CboGx2IoG3NbFRhKzFjLYnywgl/view"
@@ -76,7 +78,7 @@ export default function Project() {
                                 alt="image of walk through"
                                 /></a>
                         </div>
-                        <div className="card">
+                        <div className="card text-decoration-none">
                             <h3>Team Profile Generator</h3>
                             <a
                                 href="https://drive.google.com/file/d/1zqZZ6eW8WMP5yK_DuzPplQCe54emQCp3/view"

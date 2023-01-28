@@ -11,15 +11,15 @@ export default function navbar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto text-decoration-none">
-                        <Link to="/"> Home </Link>
-                        <Link to="/About"> About </Link>
-                        <Link to="/Project" > Projects </Link>
-                        <Link to="/Contact" > Contact Me</Link>
-                        <Link to="/Resume" > Resume </Link>
+                        <Link className="text-decoration-none m-2 text-light" to="/"> Home </Link>
+                        <Link className="text-decoration-none m-2 text-light" to="/About"> About </Link>
+                        <Link className="text-decoration-none m-2 text-light" to="/Project" > Projects </Link>
+                        <Link className="text-decoration-none m-2 text-light" to="/Contact" > Contact Me</Link>
+                        <Link className="text-decoration-none m-2 text-light" to="/Resume" > Resume </Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="https://github.com/cbaird21" target="blank">Github</Nav.Link>
-                        <Nav.Link href="https://www.linkedin.com/in/chandler-baird-39965b129/" target="blank">Linked In</Nav.Link>
+                        <Nav.Link className="text-decoration-none m-2 text-light" href="https://github.com/cbaird21" target="blank">Github</Nav.Link>
+                        <Nav.Link className="text-decoration-none m-2 text-light" href="https://www.linkedin.com/in/chandler-baird-39965b129/" target="blank">Linked In</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

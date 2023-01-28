@@ -19,10 +19,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Project" element={<Project />} />
+          <Route className="text-decoration-none" path="/" element={<Home />} />
+          <Route className="text-decoration-none" path="/about" element={<About />} />
+          <Route className="text-decoration-none" path="/Contact" element={<Contact />} />
+          <Route className="text-decoration-none" path="/Project" element={<Project />} />
         </Routes>
         <Footer />
       </Router>
