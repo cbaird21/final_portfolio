@@ -29,9 +29,9 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
+                                <ListGroup.Item>Tech Used: React, GraphQL, Express.js, Node.js, MongoDB</ListGroup.Item>
                                 <ListGroup.Item>I worked on the front end for this project using React and React bootstrap with custom Sass a collegue created.</ListGroup.Item>
-                                <ListGroup.Item>Contributers:</ListGroup.Item>
+                                <ListGroup.Item>Contributers: Jennifer Marshall, Andrew Laborde, Garrett Anderson, Michel Getz</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://frogr-app.herokuapp.com/" target="_blank">Site</Card.Link>
@@ -50,9 +50,9 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
-                                <ListGroup.Item>I worked on the front end for this project and also worked as the scrum master utilizing the kanban board.</ListGroup.Item>
-                                <ListGroup.Item>Contributers:</ListGroup.Item>
+                                <ListGroup.Item>Tech Used: JavaScript, Handlebars, HTMl, CSS </ListGroup.Item>
+                                <ListGroup.Item>I worked on the front end for this project with main focus on Handlebars and also worked as the scrum master utilizing the kanban board.</ListGroup.Item>
+                                <ListGroup.Item>Contributers: Jennifer Marshall, Garrett Anderson, Michel Getz</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://crimekermitterhangman.herokuapp.com/" target="_blank">Site</Card.Link>
@@ -71,9 +71,9 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
+                                <ListGroup.Item>Tech Used: HTML, CSS, JavaScript </ListGroup.Item>
                                 <ListGroup.Item>This was a project that we went through together, it was my first project in the industry.</ListGroup.Item>
-                                <ListGroup.Item>Contributers:</ListGroup.Item>
+                                <ListGroup.Item>Contributers: Bradley Rodriguez, Daniel Woodward, Matthew Burkley</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
                                 <Card.Link href="https://heyitsbradley.github.io/National-Park-Finder-with-Directions/" target="_blank">Site</Card.Link>
@@ -92,7 +92,7 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
+                                <ListGroup.Item>Tech Used: JavaScript, Node, Inquirer, </ListGroup.Item>
                                 <ListGroup.Item>This was a solo project.</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -112,7 +112,7 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
+                                <ListGroup.Item>Tech Used: Express, Node, Javascript </ListGroup.Item>
                                 <ListGroup.Item>This was a solo project.</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -132,7 +132,7 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
+                                <ListGroup.Item>Tech Used: dotenv, Inquirer, mysql2, sequelize, JavaScript</ListGroup.Item>
                                 <ListGroup.Item>This was a solo project.</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
@@ -152,7 +152,7 @@ export default function Project() {
                                 </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                                <ListGroup.Item>Tech Used: </ListGroup.Item>
+                                <ListGroup.Item>Tech Used: Jest, Inquirer</ListGroup.Item>
                                 <ListGroup.Item>This was a solo project.</ListGroup.Item>
                             </ListGroup>
                             <Card.Body>
